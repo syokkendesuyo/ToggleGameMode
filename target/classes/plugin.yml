@@ -1,0 +1,14 @@
+name: ToggleGameMode
+version: 1.0.0
+main: net.jp.minecraft.plugin.ToggleGameMode
+commands:
+    tgm:
+        description: Toggle GameMode.
+        usage: /tgm
+        permission: tgm.use
+        permission-message: You don't have permission (tgm.use)
+permissions:
+    tgm.use:
+        description: Toggle GameMode.
+        default: op
+
